@@ -1,0 +1,14 @@
+{
+  "name": "pom_arm64",
+  "version": "1.0.0",
+  "description": "CLI tool to use arm64 images for building local containers on Apple Silicon hardware",
+  "main": "index.js",
+  "bin": "./bin/changePom.js",
+  "keywords": [],
+  "author": "Mattia Asti",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
